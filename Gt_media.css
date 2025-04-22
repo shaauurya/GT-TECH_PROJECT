@@ -1,0 +1,195 @@
+       /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1400px) { 
+    .checkbtn i{
+        display: none;
+    }
+    .para h1{
+        font-size: 35px;
+    }
+ }
+ 
+        /* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+    .link{
+        font-size: 25px;
+    }
+    .para h1{
+        margin-top: 60px;
+        font-size: 25px;
+    }
+    .container2{
+        height: 900px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .containerlast{
+        width: 100%;
+        height: 1100px;
+        display: flex;
+        flex-wrap: wrap;
+        /* border: 5px solid red; */       
+    }
+    .content{
+        margin-bottom: 40px;
+    }
+    .fcontainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .rw1{
+        border-right: none;
+        font-size: 35px;
+    }
+    .rw1 li{
+        font-size: 25px;
+    }
+    .rw1 p{
+        font-size: 20px;
+    }
+ }
+         /* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 992px) { 
+        .bg-container{
+            background-image: url(img/Home-page.webp);
+            background-size:cover;
+        }
+    .para>h1{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    .para>p{
+        position: relative;
+        font-size: 26px;
+    }
+    .btn{
+        display: none;   
+    }
+    .link{
+        display: none;
+    }
+    #checkbtn:checked ~ .link {
+       width: 500px;
+        height: 40vh;
+        display: flex;
+        text-align: center;
+        font-size: 2rem;
+        color: rgb(242, 229, 229);
+        width: 100%;
+        height: 60vh;
+        display: block;
+        position: absolute;
+        top: 100px;
+        text-align: center;
+        background-color: rgb(247, 253, 253);
+    }
+    .link>li{ 
+        color: rgb(13, 92, 33);   
+    }
+    #bar{
+        display: block;
+        color:wheat;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .containerlast{
+        width: 100%;
+        height: 1100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+          /* container2 */
+
+    .container2{
+        height: 950px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+
+    /* footer */
+
+    footer{
+        background: linear-gradient(250deg, #161616 50%, #213325 50%);
+    }
+    .fcontainer{
+        display: flex;
+        flex-wrap:wrap;
+    }
+ }
+
+         /* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+
+    footer {
+        background: linear-gradient(250deg, #161616 50%, #213325 50%);
+        padding: 60px ;
+        color: white;
+    }
+    .containerlast{
+        height: 1600px;
+    }
+
+       .fcontainer{
+        display: flex;
+       }
+  }
+
+            /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+    body{
+        background-size: auto;
+    }
+    nav{
+        width: 100%;
+    }
+    .para{
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    .para h1{
+        padding-top: 100px;
+        font-size: 35px;
+    }
+    .para p{
+        font-size: 27px;
+    }
+    .btn3{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: start;
+    }
+    .container2{
+        
+        height: 1800px;
+    }
+    .content{
+        height: 2000px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .pcontentbx1{
+        border: 4px dashed rgb(45, 44, 44);
+        margin-bottom: 20px;
+    }
+     .contentbxp{
+         border: 4px dashed rgb(12, 12, 12);
+    }
+    .contentbx2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: 250px;
+    right: 50px;
+     }
+     .contentbx2>img{
+     width: 300px;
+     background-size: contain ;
+    }
+ }
